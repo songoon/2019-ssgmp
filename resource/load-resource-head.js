@@ -11,16 +11,16 @@ document.write("<script type='text/javascript' src='resource/plugin/css_browser_
 document.write("<link rel='stylesheet' type='text/css' href='resource/plugin/font-awesome/4.7.0/css/font-awesome.min.css' />");
 
 // plugin - html editor
-// document.write("<script type='text/javascript' src='resource/plugin/ckeditor/ckeditor.js'></script>");
+document.write("<script type='text/javascript' src='resource/plugin/ckeditor/ckeditor.js'></script>");
 
 // plugin - jquery datetimepicker
-// document.write("<link rel='stylesheet' href='resource/plugin/datetimepicker-master/build/jquery.datetimepicker.min.css' />");
-// document.write("<script type='text/javascript' src='resource/plugin/datetimepicker-master/build/jquery.datetimepicker.full.min.js'></script>");
+document.write("<link rel='stylesheet' href='resource/plugin/datetimepicker-master/build/jquery.datetimepicker.min.css' />");
+document.write("<script type='text/javascript' src='resource/plugin/datetimepicker-master/build/jquery.datetimepicker.full.min.js'></script>");
 
 // plugin - highcharts
-// document.write("<script type='text/javascript' src='resource/plugin/highcharts/4.2.5/js/highcharts.js'></script>");
-// document.write("<script type='text/javascript' src='resource/plugin/highcharts/4.2.5/js/highcharts-more.js'></script>");
-// document.write("<script type='text/javascript' src='resource/plugin/highcharts/4.2.5/js/modules/exporting.js'></script>");
+document.write("<script type='text/javascript' src='resource/plugin/highcharts/4.2.5/js/highcharts.js'></script>");
+document.write("<script type='text/javascript' src='resource/plugin/highcharts/4.2.5/js/highcharts-more.js'></script>");
+document.write("<script type='text/javascript' src='resource/plugin/highcharts/4.2.5/js/modules/exporting.js'></script>");
 
 // font 
 document.write("<link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600' />");
