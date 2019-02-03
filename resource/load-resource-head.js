@@ -24,7 +24,9 @@ document.write("<script type='text/javascript' src='resource/plugin/highcharts/4
 
 // font 
 document.write("<link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600' />");
-document.write("<link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/earlyaccess/nanumgothic.css' />");
+document.write("<link rel='stylesheet' type='text/css' href='resource/font/NanumGothic/nanumgothic.css' />");
+document.write("<link rel='stylesheet' type='text/css' href='resource/font/NanumSquare/font.css' />");
+
 
 // css - skin
 document.write("<link rel='shortcut icon' href='resource/image/favicon.png' />");

@@ -2,12 +2,14 @@
 
 // nav-sidebar-switch 
 $('.nav-sidebar-switch-open').click(function(){
-	$('#nav-sidebar').animate({left:'0'});
+	$('#body-wrap').css('position', 'fixed');
+	$('#nav-sidebar').animate({right:'0'});
 	$('.nav-sidebar-switch-open').hide();
 	$('.nav-sidebar-switch-close').show();
 });
 $('.nav-sidebar-switch-close').click(function(){
-	$('#nav-sidebar').animate({left:'-20.0rem'});
+	$('#body-wrap').css('position', 'relative');
+	$('#nav-sidebar').animate({right:'-20.0rem'});
 	$('.nav-sidebar-switch-open').show();
 	$('.nav-sidebar-switch-close').hide();
 });
@@ -227,7 +229,7 @@ $(document).ready(function(){
 });
 
 //------------------ embed video > float video player ------------------// 
-
+/*
 // 비디오 플레이어가 화면 위로 올라갔을 때, 특정 위치로 띄우기
 //float-video-player 닫기
 $('.float-player-off-btn').click(function(){
@@ -279,7 +281,7 @@ $('.layer-detail .layer-box').scroll(function(){
 	//위치정보표기 (임시)    
 	$('#fv-layer-info').html('scrTop : ' + scrTop + '<br>' + 'fVplTop : ' + fVplTop + '<br>' + 'fVplHeight : ' + fVplHeight + '<br>' +  'fVplBottomLoc : ' + fVplBottomLoc + '<br>' + 'fVplTargetWidth : ' +  fVplTargetWidth);
 });
-
+*/
 //------------------ layer ------------------// 
 // layer-close
 $('.layer-info-close').click(function(){
