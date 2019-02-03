@@ -272,14 +272,14 @@ h6 {font-size:1.20rem;}
 .sidebar-menu-group h3 {padding: 1rem 1.0rem 0 1.5rem; font-size: 1.4rem; font-weight: bold; color:#888;}
 
 .sidebar-menu-1d {border-bottom: 1px solid #ddd;  padding:0.5rem 0;}
-.sidebar-menu-1d li a {position:relative; display:block; padding: 0.8rem 1.0rem 0.8rem 1.5rem; font-size:1.2rem;}
+.sidebar-menu-1d li a {position:relative; display:block; padding: 0.8rem 1.0rem 0.8rem 1.5rem; font-size:1.25rem;}
 .sidebar-menu-1d li a:hover {padding-left:1.5rem; background:#4095BF; border-left:0px solid #fff;}
 .sidebar-menu-1d li a .icon {margin-right:0.5rem; vertical-align: inherit;}
 .sidebar-menu-1d li .include-2d:after {float: right; font-family: 'FontAwesome'; content: "\f107"; margin-left: 0.5rem; padding: 0.3rem; }
 .sidebar-menu-1d li .current {background: #4095BF; padding-left:1.5rem; border-left:0px solid #fff; color:#fff;}
 
 .sidebar-menu-2d {background:#f9f9f9;}
-.sidebar-menu-2d li a {padding:0.8rem 1.0rem 0.8rem 3.0rem; font-size:1.1rem;}
+.sidebar-menu-2d li a {padding:0.8rem 1.0rem 0.8rem 3.0rem; font-size:1.2rem;}
 .sidebar-menu-2d li a:hover {padding-left:3rem;}
 .sidebar-menu-2d li a:before {font-family: 'FontAwesome'; content: "\f105"; margin-right:0.5rem;}
 .sidebar-menu-2d li .current {background: #4095BF; padding-left:3rem;}
@@ -720,7 +720,7 @@ input:checked + .switch-slider:before {
 .main-page .con-body {background:none;}
 .main-page .con-header h1 {text-align: center; font-size:3.0rem;}
 .main-page .con-sector {margin-bottom: 0;}
-.main-page .item-pure {background:rgba(0, 0, 0, 0.8);}
+.main-page .item-pure {background:rgba(0, 0, 0, 0.7);}
 .main-page-top-img {overflow: hidden; vertical-align: middle;}
 .main-page-welcome {padding:0; max-width: none;}
 .main-page-welcome .item-box {padding: 2rem 0; background:rgba(0, 0, 0, 1); border:none; margin:0 0 2.0rem 0; text-align: center}
