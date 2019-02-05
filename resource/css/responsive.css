@@ -15,6 +15,8 @@
     #body-wrap.article-subside-on .article-subside-switch-close {display: none;}
     
     /* #header-gnb */
+    .gnb-identity .gnb-subtitle {display:none;}
+    .gnb-identity .gnb-subtitle-img {display:none;}
     .gnb-menu .gnb-search-switch {display:inline-block;}
     .gnb-search {display:none; position: absolute; top: 4rem; right:1.0rem; background: #fff;
         box-shadow: 0 0.3rem 0.5rem 0 rgba(0,0,0,0.3);
@@ -62,8 +64,6 @@
     /* #header-gnb */
     .gnb-identity .gnb-logo {width:inherit; background:none;}
     .gnb-identity .gnb-logo a {text-align: left;}
-    .gnb-identity .gnb-subtitle {display:none;}
-    .gnb-identity .gnb-subtitle-img {display:none;}
     .gnb-search {right:0; width:100%;}
     .gnb-menu {display: none;} 
     

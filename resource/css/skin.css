@@ -203,8 +203,8 @@ h6 {font-size:1.20rem;}
 .gnb-logo a img {max-width: 18rem; max-height: 3rem; vertical-align: middle;} /* 이미지 로고 넣을 때 */
 .gnb-subtitle {float:left; padding: 1rem;}
 .gnb-subtitle span {display: block; height: 2.0rem; font-size: 1.4rem; font-weight: 100; color:#555;}
-.gnb-subtitle-img {float:left; padding:1.0rem 0.5rem 1.0rem 0;}
-.gnb-subtitle-img img {height:2.0rem;}
+.gnb-subtitle-img {float:left; padding:1.25rem 0.5rem 1.25rem 0;}
+.gnb-subtitle-img img {height:1.5rem;}
 
 .gnb-menu {float:right;}
 .gnb-menu:after {content:""; display:block; clear:both;}
@@ -592,7 +592,6 @@ input:checked + .switch-slider:before {
 /* card-board */
 .card-board {text-align:center; color:#fff; padding:0.5rem;}
 .card-board a {text-decoration: none;}
-.card-board a:hover p span {font-size:1.25em}
 .card-board-icon {font-size:6.0rem;}
 .card-board-icon .icon {width:inherit;}
 .card-board-title {font-size:1.5rem;}
@@ -726,6 +725,7 @@ input:checked + .switch-slider:before {
 .main-page-welcome .item-box {padding: 2rem 0; background:rgba(0, 0, 0, 1); border:none; margin:0 0 2.0rem 0; text-align: center}
 .main-page-welcome .item-box h1 {font-size: 3.0rem; font-style:italic; color:#fff}
 
+.main-page .card-board a:hover p span {font-size:1.1em}
 .main-page .card-board-icon {font-size:6.0rem;}
 .main-page .card-board-title {font-size:2.5rem;}
 .main-page .card-board-desc {font-size:3.5rem;}
