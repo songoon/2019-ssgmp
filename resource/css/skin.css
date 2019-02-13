@@ -294,7 +294,7 @@ h6 {font-size:1.20rem;}
 .sidebar-menu-2d li .sidebar-menu-badge {padding:0.1rem 0.5rem;}
 
 /* #main-article */
-.article-top-img {max-height: 30.0rem; overflow: hidden; vertical-align: middle;}
+.article-top-img {max-height: 25.0rem; overflow: hidden; vertical-align: middle;}
 
 /* #article-subside */
 .subside-wrap {padding: 2.0rem; height:100%; overflow: auto;}
@@ -720,7 +720,7 @@ input:checked + .switch-slider:before {
 .main-page .con-header h1 {text-align: center; font-size:3.0rem;}
 .main-page .con-sector {margin-bottom: 0;}
 .main-page .item-pure {background:rgba(0, 0, 0, 0.7);}
-.main-page-top-img {overflow: hidden; vertical-align: middle;}
+.main-page-top-img {overflow: hidden; vertical-align: middle; max-height: 35.0rem}
 .main-page-welcome {padding:0; max-width: none;}
 .main-page-welcome .item-box {padding: 2rem 0; background:rgba(0, 0, 0, 1); border:none; margin:0 0 2.0rem 0; text-align: center}
 .main-page-welcome .item-box h1 {font-size: 3.0rem; font-style:italic; color:#fff}
