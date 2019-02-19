@@ -9,7 +9,7 @@ $('.nav-sidebar-switch-open').click(function(){
 });
 $('.nav-sidebar-switch-close').click(function(){
 	$('#body-wrap').css('position', 'relative');
-	$('#nav-sidebar').animate({right:'-20.0rem'});
+	$('#nav-sidebar').animate({right:'-22.0rem'});
 	$('.nav-sidebar-switch-open').show();
 	$('.nav-sidebar-switch-close').hide();
 });
