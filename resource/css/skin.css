@@ -616,6 +616,7 @@ input:checked + .switch-slider:before {
     -moz-border-radius:0.5rem; 
     -webkit-border-radius:0.5rem;
 }
+.simple-list > li.item-box {padding: 1.0rem; background:none;}
 .simple-list a {color:#222;}
 .simple-list a:hover {color:#5CADD6; text-decoration: none;}
 .simple-list-edit:after {font-family: 'FontAwesome'; content: "\f040"; margin-right:0.5rem;}
