@@ -623,8 +623,11 @@ input:checked + .switch-slider:before {
 .simple-list a {color:#222;}
 .simple-list a:hover {color:#5CADD6; text-decoration: none;}
 .simple-list-edit:after {font-family: 'FontAwesome'; content: "\f040"; margin-right:0.5rem;}
+.simple-list-link:after {font-family: 'FontAwesome'; content: "\f08e"; margin-right:0.5rem;}
 .simple-list-remove {float:right; margin-left: 0.5rem;}
 .simple-list-remove:after {font-family: 'FontAwesome'; content: "\f057";}
+.simple-list-download {float:right; margin-left: 0.5rem;}
+.simple-list-download:after {font-family: 'FontAwesome'; content: "\f019";}
 .label-box .simple-list {margin-bottom: 0.5rem;}
 
 
