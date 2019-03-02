@@ -29,6 +29,7 @@ document.write("<link rel='stylesheet' type='text/css' href='resource/font/Nanum
 
 
 // css - skin
-document.write("<link rel='shortcut icon' href='resource/image/favicon.png' />");
+document.write("<link rel='shortcut icon' href='resource/image/favicon.ico' type='image/x-icon'>");
+document.write("<link rel='icon' href='resource/image/favicon.ico' type='image/x-icon'>");
 document.write("<link rel='stylesheet' type='text/css' href='resource/css/skin.css' id='skin' />");
 document.write("<link rel='stylesheet' type='text/css' href='resource/css/responsive.css' />");
