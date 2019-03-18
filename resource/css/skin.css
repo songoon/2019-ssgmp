@@ -723,7 +723,8 @@ input:checked + .switch-slider:before {
 
 /*--------------------------------------------------*/ /* main page */
 
-#article-content.main-page {background: url('../../resource/image/article-top/temp-02.jpg') no-repeat 50% 0; background-attachment: fixed; background-size: cover;}
+/*#article-content.main-page {background: url('../../resource/image/article-top/temp-02.jpg') no-repeat 50% 0; background-attachment: fixed; background-size: cover;} */
+#article-content.main-page{background: #fff;}
 .main-page .con-body {background:none;}
 .main-page .con-header h1 {text-align: center; font-size:3.0rem;}
 .main-page .con-sector {margin-bottom: 0;}
@@ -731,7 +732,7 @@ input:checked + .switch-slider:before {
 .main-page-top-img {overflow: hidden; vertical-align: middle; max-height: 35.0rem}
 .main-page-top-img  .item-box{}
 .main-page-welcome {padding:0; max-width: none;}
-.main-page-welcome .item-box {padding: 2rem 0; background:rgba(0, 0, 0, 1); border:none; margin:0 0 2.0rem 0; text-align: center}
+.main-page-welcome .item-box {padding: 2rem 0; background:rgba(255, 255, 255, 1); border:none; margin:0 0 2.0rem 0; text-align: center}
 .main-page-welcome .item-box h1 {font-size: 3.0rem; font-style:italic; color:#fff}
 
 .main-page .card-board a:hover p span {font-size:1.1em}
@@ -893,3 +894,17 @@ html.ie7 .layer-blocking-browser .layer-body .support-env {display: none;}
 .img-table{position: relative; width:70% !important; margin:0 auto;}
 .sub-title{font-size: 1.60rem; font-weight: bold; margin: 1.0rem 0 1.0rem 0;}
 .product-feature{margin-top:2.0rem;}
+.main-page-guide{background: rgb(255, 255, 255); max-width: 100%;}
+.main-page-guide .item-box{border: 0;}
+.main-page .card-board a:hover p span{font-size:inherit; color:#195eb2; cursor: pointer;}
+.main-page .card-board-title{font-size:1.4rem; margin: 1.0rem 0;}
+.main-page-contact{max-width:100%; padding:0;}
+.main-page-contact .item-pure{background: #fff;}
+.main-page-contact .grid > ul > li{margin-bottom:0;}
+.main-page-product{background: #f5f5f5; padding: 6.0rem 2.0rem; max-width: 100%;}
+.color-set-black{color:#444;}
+.simple-list > li.item-box{padding: 1.4rem 1.0rem; background: none; border-radius: 0;}
+.simple-list > li.item-box:hover{border:1px solid #195eb2; color:#195eb2;}
+
+.al-r{position: absolute; right: 0;}
+.w-30per{width:30% !important;}
