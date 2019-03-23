@@ -890,7 +890,7 @@ html.ie7 .layer-blocking-browser .layer-body .support-env {display: none;}
 
 
 /* style css *//*아름*/
-.img-product{position: relative; width:50% !important; margin:0 auto;}
+.img-product{position: relative; width:50% !important; text-align: center; margin:0 auto;}
 .img-table{position: relative; width:70% !important; margin:0 auto;}
 .sub-title{font-size: 1.60rem; font-weight: bold; margin: 1.0rem 0 1.0rem 0;}
 .product-feature{margin-top:2.0rem;}
