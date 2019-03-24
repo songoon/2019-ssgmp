@@ -175,10 +175,6 @@
     .layer-info .layer-body .con-sector .submit button {font-size: 1.4rem;}
     .layer-blocking-browser .layer-body h1 {font-size: 2.4rem;}
     
-    /* main page */
-    .main-page .con-body {padding:1.0rem;}
-    .main-page-welcome {padding:0;}
-    
     /* login page */
     .login-box {width:100%; max-width: 100%; padding:2.0rem;}
     .login-box h1 {font-size:4.0rem; margin-bottom: 2.0rem;}
@@ -186,6 +182,9 @@
     /* main page */
     .main-page-quick-menu .label-box-item-label  {width: 50%;}
     .main-page-quick-menu .label-box-item-desc {float: inherit; width:inherit;}
+
+    .main-page .con-body {padding:1.0rem;}
+    .main-page-contact {padding:0;}
 
 
 }
