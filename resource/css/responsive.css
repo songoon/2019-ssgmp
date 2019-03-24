@@ -80,9 +80,7 @@
     .grid-4n > li {width:48%;}
     .grid-6n > li {width:31.33%;}
     
-    /* main page */
-    .main-page .con-body {padding:1.0rem;}
-    .main-page-welcome {padding:0;}
+
     
     /* login page */
     .login-body {font-size: 1.2rem;}
@@ -99,6 +97,12 @@
     .main-page-quick-menu .grid-6n > li {width:100%;}
     .main-page-quick-menu .grid-2n-2x1 > li.grid-2n-2x1-2 {width:100%;}
     .main-page-quick-menu .grid-2n-2x1 > li.grid-2n-2x1-1 {width:100%;}
+
+    .main-page-quick .main-page-quick-title {display: none;}
+    .main-page-quick.con-wrap {padding:0.5rem;}
+    .main-page-quick .card-board-icon {font-size: 2.0rem;}
+    
+    .main-page-contact {padding:0;}
 
 
     }
@@ -183,8 +187,6 @@
     .main-page-quick-menu .label-box-item-label  {width: 50%;}
     .main-page-quick-menu .label-box-item-desc {float: inherit; width:inherit;}
 
-    .main-page .con-body {padding:1.0rem;}
-    .main-page-contact {padding:0;}
 
 
 }
