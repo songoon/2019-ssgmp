@@ -308,7 +308,7 @@ h6 {font-size:1.20rem;}
 
 /* #article-content */
 .con-wrap {padding:2.0rem; max-width: 102.4rem; margin: 0 auto;}
-.con-header {margin-bottom:1.0rem;}
+.con-header {margin-bottom:2rem;}
 .con-header.in-article-top-img {position: absolute; top: 0; left: 0; padding: 1rem; background: rgba(0, 0, 0, 0.5); color: #fff;}
 .con-header.in-article-top-img .con-header-title {color:#fff; font-size: 1.6rem; font-weight: normal;}
 .con-header-title {color:#222; font-weight:bold;}
