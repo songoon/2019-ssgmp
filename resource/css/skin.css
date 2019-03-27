@@ -71,7 +71,7 @@ button {padding:0 1.0rem; text-decoration: none;
 
 table {border-collapse: collapse; border-spacing: 0;}  
 video {width:100%;}
-img {border:0;}
+img {max-width: 100%; border:0;}
 a {color:#4095BF; text-decoration:none;}
 a:hover {cursor:pointer; text-decoration:underline;}
 
@@ -633,7 +633,7 @@ input:checked + .switch-slider:before {
 .simple-list-remove {float:right; margin-left: 0.5rem;}
 .simple-list-remove:after {font-family: 'FontAwesome'; content: "\f057";}
 .simple-list-download {float:right; margin-left: 0.5rem;}
-.simple-list-download:after {font-family: 'FontAwesome'; content: "\f019";}
+/*.simple-list-download:after {font-family: 'FontAwesome'; content: "\f019";}*/
 .label-box .simple-list {margin-bottom: 0.5rem;}
 
 
@@ -938,9 +938,10 @@ html.ie7 .layer-blocking-browser .layer-body .support-env {display: none;}
 
 
 .color-set-black {color:#444;}
-.simple-list > li.item-box{padding: 1.0rem 1.0rem; background: none; border: 1px solid transparent; border-bottom: 1px solid #ddd; border-radius: 0;}
+.simple-list > li.item-box{position: relative; overflow: hidden; height:3.8rem; line-height: 1.6; padding: 1.0rem 1.0rem; background: none; border: 1px solid transparent; border-bottom: 1px solid #ddd; border-radius: 0;}
 .simple-list > li.item-box:hover{border-bottom:1px solid #195eb2; color:#195eb2;}
-
+.simple-list > li.item-box .simple-list-download{position: relative; top:-2px; width: 2.4rem;}
+xs
 .al-r{position: absolute; right: 0;}
 .w-30per{width:30% !important;}
 
