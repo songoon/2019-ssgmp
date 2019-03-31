@@ -109,15 +109,20 @@ $(document).ready(function(){
 		var navMenu1dHref = $(this).attr('href');
 		if (recentUrl.indexOf(navMenu1dHref) >= 0){
 			$(this).addClass('current');
-		}
+		};
 	});
 	$('.sidebar-menu-2d-li-a').each(function(){
 		var navMenu2dHref = $(this).attr('href');
 		if (recentUrl.indexOf(navMenu2dHref) >= 0){
+			
 			$(this).addClass('current');
 			$(this).parents().children('.sidebar-menu-2d:not(.opened)').slideToggle('fast').addClass('opened');
-		}
+			
+			
+		};
 	});
+	var currentTop = $('.current').offset().top - 100; 
+	$('.sidebar-wrap').animate({scrollTop: currentTop}, 500);
 });
 
 //------------------ Tabs------------------// 
