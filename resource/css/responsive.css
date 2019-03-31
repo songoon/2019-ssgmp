@@ -100,6 +100,7 @@
 
     .main-page-quick .main-page-quick-title {display: none;}
     .main-page-quick.con-wrap {padding:0.5rem;}
+    .main-page-quick .card-board{padding:0.5rem 0;}
     .main-page-quick .card-board-icon {font-size: 2.0rem;}
     
     .main-page-contact {padding:0;}
@@ -186,6 +187,12 @@
     /* main page */
     .main-page-quick-menu .label-box-item-label  {width: 50%;}
     .main-page-quick-menu .label-box-item-desc {float: inherit; width:inherit;}
+    .main-page-product h1, .main-page-contact h1, .main-page-gallery h1{font-size: 2.8rem;}
+    .main-page-contact .sub-title{font-size: 1.4rem;}
+    .main-page-contact .card-board-desc{font-size: 2.2rem;}
+    
+    .inquiry .card-board-icon{float: none; text-align: center; margin:0; margin-bottom: 2.0rem;}
+    .inquiry .card-board-list{display: block; text-align: center;}
 
 
 

@@ -961,7 +961,7 @@ html.ie7 .layer-blocking-browser .layer-body .support-env {display: none;}
 
 
 .color-set-black {color:#444;}
-.simple-list > li.item-box{position: relative; overflow: hidden; height:3.8rem; line-height: 1.6; padding: 1.0rem 1.0rem; background: none; border: 1px solid transparent; border-bottom: 1px solid #ddd; border-radius: 0;}
+.simple-list > li.item-box{position: relative; overflow: hidden; height:3.8rem; padding: 1.0rem 1.0rem; background: none; border: 1px solid transparent; border-bottom: 1px solid #ddd; border-radius: 0;}
 .simple-list > li.item-box:hover{border-bottom:1px solid #195eb2; color:#195eb2;}
 .simple-list > li.item-box .simple-list-download{position: relative; top:-2px; width: 2.4rem; margin-right: 2.0rem;}
 .al-r{position: absolute; right: 0;}
