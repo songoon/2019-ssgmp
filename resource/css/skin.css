@@ -61,7 +61,7 @@ input[type=text], input[type=search], input[type=password] {border: 0.1rem solid
     -webkit-border-radius:0;
     -webkit-appearance: none;
 }
-button {padding:0 1.0rem; text-decoration: none;
+button {margin:0; padding:0 1.0rem; text-decoration: none;
     border-radius:0;
     -o-border-radius:0;
     -ms-border-radius:0;
@@ -951,25 +951,27 @@ html.ie7 .layer-blocking-browser .layer-body .support-env {display: none;}
 .main-page-product h1 {text-align: center; padding:2.0rem 1.5rem; font-size:4.0rem; font-style: normal; font-weight:800; letter-spacing: -2px;}
 .main-page-contact {max-width:100%; padding:0; background: url(../image/article-top/temp-01.jpg) no-repeat 0 0; background-size: cover !important;}
 .main-page-contact .con-body {background:rgba(0, 0, 0, 0.5); border-radius: 0; padding: 4.0rem 2.0rem;}
-.main-page-contact h1 {text-align: center; padding-top:2.0rem; color:#fff; font-size:4.0rem; font-style: normal; font-weight:800;}.main-page-contact 
-.main-page-contact h1 .sub-title{display: block; text-align: center; color: #fff;  font-weight: 400; margin: 0.5rem 0.5rem;}
-.main-page-contact .item-pure{background:rgba(0, 0, 0, 0); text-align: center;}
+.main-page-contact h1 {text-align: center; padding-top:2.0rem; color:#fff; font-size:4.0rem; font-style: normal; font-weight:800;}
+.main-page-contact .sub-title{display: block; text-align: center; color: #fff; font-weight: 400; margin: 0.5rem 0.5rem;}
+.main-page-contact .item-pure{background:rgba(0, 0, 0, 0); text-align: center; margin-bottom: 0;}
 .main-page-contact .item-pure .card-board{position: relative; overflow: hidden;}
 .main-page-contact .card-board-desc{font-size: 2.6rem;}
-
-
-
 .main-page-gallery h1 {text-align: center; padding:2.0rem 1.5rem; font-size:4.0rem; font-style: normal; font-weight:800; letter-spacing: -2px;}
 .main-page-gallery a:hover{text-decoration: none;}
+
 
 .color-set-black {color:#444;}
 .simple-list > li.item-box{position: relative; overflow: hidden; height:3.8rem; line-height: 1.6; padding: 1.0rem 1.0rem; background: none; border: 1px solid transparent; border-bottom: 1px solid #ddd; border-radius: 0;}
 .simple-list > li.item-box:hover{border-bottom:1px solid #195eb2; color:#195eb2;}
 .simple-list > li.item-box .simple-list-download{position: relative; top:-2px; width: 2.4rem; margin-right: 2.0rem;}
-xs
 .al-r{position: absolute; right: 0;}
 .w-30per{width:30% !important;}
 
 .gallery .img-embed-wrap {margin-bottom: 0;}
 .gallery .img-embed-ratio {padding-top: 75%;}
 .gallery p {margin-top: 0.5rem}
+
+.inquiry .card-board{position: relative; vertical-align: middle; text-align: left; margin-bottom: 2.0rem;}
+.inquiry .card-board-icon{float: left; margin-right: 2.0rem;}
+.inquiry .card-board-list{display: inline-block;}
+.inquiry .card-board-list .card-board-title{margin-bottom: 1.0rem;}
