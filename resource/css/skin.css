@@ -969,9 +969,9 @@ html.ie7 .layer-blocking-browser .layer-body .support-env {display: none;}
 
 .gallery .img-embed-wrap {margin-bottom: 0;}
 .gallery .img-embed-ratio {padding-top: 75%;}
-.gallery p {margin-top: 0.5rem}
+.gallery p {margin-top: 1.0rem}
 
-.inquiry .card-board{position: relative; vertical-align: middle; text-align: left; margin-bottom: 2.0rem;}
+.inquiry .card-board{position: relative; overflow: hidden; vertical-align: middle; text-align: left; margin-bottom: 2.0rem;}
 .inquiry .card-board-icon{float: left; margin-right: 2.0rem;}
 .inquiry .card-board-list{display: inline-block;}
 .inquiry .card-board-list .card-board-title{margin-bottom: 1.0rem;}
