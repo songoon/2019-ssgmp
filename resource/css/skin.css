@@ -119,8 +119,12 @@ h6 {font-size:1.20rem;}
 .w-xls {width:60.0rem; max-width: 100%;}
 .w-xlm {width:70.0rem; max-width: 100%;}
 .w-xll {width:80.0rem; max-width: 100%;}
+.w-30per {width:30%; margin-right:0;}
 .w-50per {width:50%; margin-right:0;}
 .w-100per {width:100%; margin-right:0;}
+.align-l {text-align: left;}
+.align-r {text-align: right;}
+.align-c {text-align: center;}
 
 /* message */
 .disable-message {color:#888;}
